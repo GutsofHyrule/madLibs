@@ -22,7 +22,17 @@ p{
     font-family: Creepster, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 30px;
     text-align: justify;
+    line-height: 30px;
 }
-.box{text-align: center;
-
+.box{
+    text-align: center;
+    display: grid;
+    grid-row: 20px ;
+    justify-items: center;
+    grid-template-areas:
+  "header header header"
+  "advert content content"
+  "advert footer footer";
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto ;
 }
