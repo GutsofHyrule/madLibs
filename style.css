@@ -16,7 +16,7 @@ h1{
     font-size: 50px;
     color: orange;
 }
-p{
+#answer{
     font-size: 24px;
     text-align: center;
     font-family: Creepster, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -35,4 +35,5 @@ p{
   "advert footer footer";
   grid-template-rows: auto auto auto;
   grid-template-columns: auto auto auto ;
+  
 }
