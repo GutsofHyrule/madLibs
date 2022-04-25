@@ -15,6 +15,6 @@ function createParagraph(){
     var wordFourteen = document.getElementById('word14').value;
     var wordFifteen = document.getElementById('word15').value;
     
-    var paragraph = "If zombies " + wordOne + "a picnic, what would they " + wordTwo +" to eat? Everyone knows zombies love to " + wordThree + ' ' + wordFour +", but did you know they also injoy " + wordFive +  " and even " + wordSix +"? The best " + wordSeven + " for a zombie picnic is when the moon is " + wordEight +". At least" + " one zombie will bring " + wordNine + "to drinkand it\'s not a picnic without" +wordTen+ " with extra " + wordEleven + "on top. After eating, zombie will " + wordTwelve + ' ' + wordThirteen + " games like kick the "  +wordFourteen+  "and " + wordFifteen + "toss."
+    var paragraph = "If zombies " + wordOne + " a picnic, what would they " + wordTwo +" to eat? Everyone knows zombies love to " + wordThree + ' ' + wordFour +", but did you know they also injoy " + wordFive +  " and even " + wordSix +"? The best " + wordSeven + " for a zombie picnic is when the moon is " + wordEight +". At least one zombie will bring " + wordNine + " to drinkand it\'s not a picnic without " +wordTen+ " with extra " + wordEleven + " on top. After eating, zombie will " + wordTwelve + ' ' + wordThirteen + " games like kick the "  +wordFourteen+  " and " + wordFifteen + " toss."
         document.getElementById('answer').innerHTML = paragraph;
     }
